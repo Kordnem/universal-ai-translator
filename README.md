@@ -1,5 +1,3 @@
-# universal-ai-translator
-„Open-Source-Projekt für Echtzeit-Sprachübersetzung mit Bluetooth-Kopfhörern“
 **🚀 Open-Source-Projekt: Universelle Echtzeit-Sprachübersetzung für Bluetooth-Kopfhörer**
 
 ### **🌍 Ziel:**
@@ -44,11 +42,34 @@ Ein universelles Open-Source-Tool zur **Echtzeit-Sprachübersetzung**, das mit *
 
 ---
 
-### **Nächste Schritte**
+### **🛠 Erste Code-Implementierung (Proof of Concept - PoC)**
+**📂 Projektstruktur:**
+```
+universal-ai-translator/
+│── backend/                 # Backend für Spracherkennung, Übersetzung, TTS
+│   ├── main.py              # Haupt-Skript (KI-Logik)
+│   ├── speech_recognition.py # Modul für Sprache-zu-Text
+│   ├── translation.py       # Modul für die Übersetzung
+│   ├── text_to_speech.py    # Modul für Text-zu-Sprache
+│   ├── noise_cancellation.py # Modul für Noise Cancelling
+│── frontend/                # Mobile/Desktop-App-Frontend
+│   ├── android/             # Flutter oder React Native für Android
+│   ├── ios/                 # Flutter oder Swift für iOS
+│   ├── desktop/             # Electron oder Tkinter für PC-Apps
+│── docs/                    # Dokumentation & Anleitungen
+│── README.md                # Projektbeschreibung
+│── requirements.txt         # Python-Abhängigkeiten (falls Python verwendet wird)
+│── LICENSE                  # Open-Source-Lizenz
+│── .gitignore               # Dateien, die nicht in Git gespeichert werden sollen
+```
+
+💡 **Nächste Schritte:**
 1️⃣ Veröffentlichung als **GitHub-Projekt** mit Dokumentation  
 2️⃣ Aufbau einer **Community von Entwicklern & Nutzern**  
 3️⃣ Entwicklung eines **Proof-of-Concept (PoC)** für erste Tests  
 4️⃣ Suche nach Finanzierungsmöglichkeiten für langfristige Entwicklung  
 
 🚀 **Lasst uns zusammen eine universelle, frei zugängliche Echtzeit-Übersetzungs-App erschaffen!** 💡
+
+
 
